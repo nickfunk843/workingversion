@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% block title %}
+    SLO Surf Tracker
+{% endblock %}
+{% block content %}
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.text-block1 {
+  position: absolute;
+  bottom: 800px;
+  right: -60px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block2 {
+  position: absolute;
+  bottom: 900px;
+  right: -60px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block3 {
+  position: absolute;
+  bottom: 620px;
+  right: -70px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block4 {
+  position: absolute;
+  bottom: 800px;
+  right: -50px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block5 {
+  position: absolute;
+  bottom: 800px;
+  right: -50px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-block6 {
+  position: absolute;
+  bottom: 670px;
+  right: -50px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+</style>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark" style="color:white">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">SLO Beach Guide</h1>
+            <p class="lead font-weight-normal">Find information on local San Luis Obispo Beaches!</p>
+            <a class="btn btn-primary" href="{{ url_for('market_page') }}">Get Started</a>
+        </div>
+        <div class="product-device box-shadow d-none d-md-block"></div>
+        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+    </div>
+    <div class="col">
+          <div class="card shadow-sm">
+            <div class="container">
+                <div class="container">Avila Beach</div>
+                    <img style="border:10px solid black;" src="https://www.glitterandmud.com/wp-content/uploads/2013/09/avila-beach-at-sunset-mimi-ditchie-photography1.jpg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block1">
+                        <h4>Avila Beach</h4>
+                        <p></p>
+                    </div>
+            <div class="card-body">
+              <p class="card-text">Beauty just off Highway 1 on California's Central Coast</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button onclick="window.location.href='https://www.surfline.com/surf-report/avila-beach/5842041f4e65fad6a77089ab';">Surf Forecast</button>
+                    <button onclick="window.location.href='https://visitavilabeach.com/';">Info</button>
+
+                </div>
+                <small class="text-muted">11.3 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="container">
+                <div class="container">Pismo Beach</div>
+                    <img style="border:10px solid black;" src="https://3gz8cg829c.execute-api.us-west-2.amazonaws.com/prod/image-renderer/original/full/1600/center/80/28b3a016-375a-4d9b-b7b9-a740532a4f52-118778971_3016295138600695_7517579372194560792_o.jpg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block2">
+                        <h4>Pismo Beach</h4>
+                        <p></p>
+                    </div>
+            <div class="card-body">
+              <p class="card-text">Classic beach town, is located on California's famous central coast</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button onclick="window.location.href='https://www.surfline.com/surf-report/pismo-beach-pier-northside/5842041f4e65fad6a77089ac';">Surf Forecast</button>
+                    <button onclick="window.location.href='https://www.experiencepismobeach.com/';">Info</button>
+                </div>
+                <small class="text-muted">14.0 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+             <div class="container">
+                <div class="container">Morro Bay Rock</div>
+                    <img style="border:10px solid black;" src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/morrobayca/19730_MorroRockAerial_5c59de00-5056-a36a-0647e0f31069067d.jpg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block3">
+                        <h4>Morro Bay Rock</h4>
+                        <p></p>
+                    </div>
+            <div class="card-body">
+              <p class="card-text">A state historic landmark, an adyllic backdrop for Morro Bay, along Highway 1</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button onclick="window.location.href='https://www.surfline.com/surf-report/morro-bay/5842041f4e65fad6a770880a?camId=5f1f3f987939d515202b4d28';">Surf Forecast</button>
+                    <button onclick="window.location.href='https://www.morrobay.org/things-to-do/outdoors/morro-rock/';">Info</button>
+                </div>
+                <small class="text-muted">12.3 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+             <div class="container">
+                <div class="container">Morro Bay North</div>
+                    <img style="border:10px solid black;" src="https://dottedglobe.com/wp-content/uploads/2018/10/morro-bay-1575023_1280.jpg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block4">
+                        <h4>Morro Bay North</h4>
+                        <p></p>
+                    </div>
+
+            <div class="card-body">
+              <p class="card-text">The Gibraltar of the Pacific, a dog-friendly beach</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button onclick="window.location.href='https://www.surfline.com/surf-report/morro-strand-north/5dd431a37355964f5b4edbb8';">Surf Forecast</button>
+                    <button onclick="window.location.href='http://www.morro-bay.ca.us/669/Jody-Giannini-Family-Dog-Park';">Info</button>
+                </div>
+                <small class="text-muted">12.8 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+             <div class="container">
+                <div class="container">Cable landing</div>
+                    <img style="border:10px solid black;" src="https://www.californiabeaches.com/wp-content/uploads/2014/09/Sandspit-Beach-montana-BS-DC-Mar2015-16.jpg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block5">
+                        <h4>Cable landing</h4>
+                        <p></p>
+                    </div>
+
+            <div class="card-body">
+              <p class="card-text">Located in Montana de Oro State Park, a long sand spit barrier protects the bay</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button onclick="window.location.href='https://www.surfline.com/surf-report/cable-landing/5842041f4e65fad6a77089a4';">Surf Forecast</button>
+                    <button onclick="window.location.href='https://www.californiabeaches.com/beach/montana-de-oro-state-park-sandspit-beach/';">Info</button>
+
+                </div>
+                <small class="text-muted">18.6 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="container">
+                <div class="container">Cayucos Beach</div>
+                    <img style="border:10px solid black;" src="https://cayucos.com/wp-content/uploads/2020/04/Cacucos-Beach-1024x640.jpeg" alt="Ice" width="1200px"; height="auto">
+                    <div class="text-block6">
+                        <h4>Cayucos Beach</h4>
+                        <p></p>
+                    </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a charming little beach town rich in history </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button onclick="window.location.href='https://www.surfline.com/surf-report/cayucos-pier-southside-/5842041f4e65fad6a77089a2';">Surf Forecast</button>
+                    <button onclick="window.location.href='https://www.californiabeaches.com/beach/cayucos-state-beach/';">Info</button>
+
+                </div>
+                <small class="text-muted">18.4 miles from Cal Poly</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+{% endblock %}
